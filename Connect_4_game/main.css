@@ -1,0 +1,17 @@
+body {
+  background-color: aqua;
+}
+.board {
+  border: 10px solid;
+  height: 400px;
+  width: 550px;
+  margin: auto;
+  display: flex;
+  box-shadow: blue;
+  
+
+}
+.board div {
+  height: 20px;
+  width: 20px;
+}
