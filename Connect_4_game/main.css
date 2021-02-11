@@ -3,15 +3,18 @@ body {
 }
 .board {
   border: 10px solid;
-  height: 400px;
+  height: 750px;
   width: 550px;
   margin: auto;
-  display: flex;
+  display: grid;
   box-shadow: blue;
-  
-
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-gap: 15px;
+  background-color: greenyellow;
+  padding: 15px;
 }
 .board div {
-  height: 20px;
-  width: 20px;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 30px;
 }
