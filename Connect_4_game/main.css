@@ -9,12 +9,13 @@ body {
   display: grid;
   box-shadow: blue;
   grid-template-columns: auto auto auto auto auto auto auto;
-  grid-gap: 15px;
-  background-color: greenyellow;
+  grid-gap: .15rem;
+  background-color: blue;
   padding: 15px;
 }
 .board div {
   background-color: whitesmoke;
   text-align: center;
   padding: 30px;
+  border-radius: 100%;
 }
